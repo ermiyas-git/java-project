@@ -1,0 +1,109 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Apr 24, 2025, 5:28:40 AM
+    Author     : hp
+*/
+
+/* Main background container styling */
+/* Main background container styling */
+/* Main background container styling */
+.root {
+    -fx-background-color: linear-gradient(from 0% 0% to 100% 100%, #f8f9fa, #e9f2ff);
+  -fx-background-image: url("C:\Users\hp\Documents\NetBeansProjects\Employee_Management_System\src\icons\subtle-prism.png");
+    -fx-background-repeat: stretch; /* or repeat, no-repeat */
+    -fx-background-size: cover; /* or contain, or specific size */
+    -fx-background-position: center center;
+    -fx-background-color: transparent;
+}
+
+/* Main container for the login form */
+.login-container {
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 4);
+    -fx-background-radius: 8;
+    -fx-padding: 30;
+    -fx-max-width: 400;
+}
+.background-image-view {
+    -fx-fit-width: 100%;
+    -fx-fit-height: 100%;
+    -fx-preserve-ratio: false;
+}
+/* Title styling */
+.title-label {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+.subtitle-label {
+    -fx-font-size: 16px;
+    -fx-text-fill: #7f8c8d;
+    -fx-padding: 0 0 20 0;
+}
+
+/* Form field styling */
+.form-label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #34495e;
+    -fx-padding: 5 0;
+}
+
+.text-field, .password-field, .choice-box {
+    -fx-background-color: #ecf0f1;
+    -fx-background-radius: 4;
+    -fx-border-color: #bdc3c7;
+    -fx-border-radius: 4;
+    -fx-border-width: 1;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3498db;
+}
+
+/* Button styling */
+.login-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.login-button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.signup-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #3498db;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-border-color: #3498db;
+    -fx-border-width: 1;
+    -fx-border-radius: 4;
+    -fx-padding: 10 20;
+    -fx-cursor: hand;
+}
+
+.signup-button:hover {
+    -fx-background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Button container */
+.button-container {
+    -fx-spacing: 15;
+    -fx-padding: 20 0 0 0;
+}
+
+/* Icon styling (if using ImageView) */
+.icon {
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.2), 2, 0, 0, 1);
+}
